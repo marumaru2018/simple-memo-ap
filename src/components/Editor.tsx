@@ -12,7 +12,8 @@ const Editor = (props: EditorProps) => {
   const { initialValue = "", placeholder = "", type = "" } = props;
   const [inputText, setinputText] = useState(initialValue);
   return (
-    <div>
+    // 暫定: コンポーネント全体に薄い黄色の背景を設定
+    <div className="bg-yellow-50 p-4 rounded-lg">
       Editor
       <textarea
         value={inputText}

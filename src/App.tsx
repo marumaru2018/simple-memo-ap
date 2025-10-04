@@ -26,7 +26,7 @@ function App(): JSX.Element {
 
   return (
     <>
-      <div>
+      <div className="bg-yellow-50 p-4 rounded-lg bg-red-50">
         <Layout>
           hello
           <div className="w-3/4 flex-col space-y-4">
